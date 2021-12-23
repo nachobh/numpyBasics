@@ -3,7 +3,6 @@ import numpy as np
 
 def compute(elements):
     x = [elements[:, 0], elements[:, 1], elements[:, 2]]
-    print(x)
     y = elements[0:2, 0:2]
     print(y)
     print(y.shape)
